@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Esse projeto foi realizado no dia 18/12/2017 por mim Eduardo Ribeiro no período entre as 16:30 as 18:30">
 	<meta name="author" content="Eduardo Ribeiro - eduardojoseribeiro@outlook.com - http://eduardojoseribeiro.github.io">
-	<title>Desafio OpenK - Eduardo Ribeiro</title>
+	<title>Gerador de Matrizes - Eduardo Ribeiro</title>
+	<link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
 	<section>
@@ -15,9 +16,30 @@
 
 			<label for="colunas">Colunas: </label>
 			<input type="text" name="colunas" id="colunas">
+			
+			<button id="form__gerar--btn">Gerar</button>
 
-
+			<div id="form__destacar--btn">		
+				<label for="form__destacar--check">Destacar Diagonais</label>
+				<input type="checkbox" id="form__destacar--check" name="form__destacar--check">
+			</div>
+			<div id="form__destacar">
+				<div>
+					<label for="principal">Principal: </label>
+					<input type="text" id="principal" name="principal">
+				</div>
+				<div>
+					<label for="secundaria">Secundaria: </label>
+					<input type="text" id="secundaria" name="secundaria">
+					
+					<button id="form__destacar--ok">OK</button>
+				</div>
+			</div>
+			<div id="matriz">
+				
+			</div>
 		</form>
 	</section>
+	<script src="js/script.js"></script>
 </body>
 </html>

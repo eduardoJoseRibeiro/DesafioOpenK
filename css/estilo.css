@@ -1,0 +1,27 @@
+#form__destacar, #form__destacar--btn {
+	display: none;
+}
+
+.matriz__linha{
+	display: flex;
+	width: 100%;
+}
+
+.matriz__elemento{
+	border: 1px solid black;
+	flex: 1;
+	text-align: center;
+	padding: 1rem;
+}
+.azul{
+	background-color: blue;
+}
+.verde{
+	background-color: green;
+}
+.vermelho{
+	background-color: red;
+}
+.default{
+	background-color: grey;
+}
